@@ -1,0 +1,7 @@
+<div class="card shadow p-3 mb-5 bg-white rounded">
+  <img [src]="user.imagePath" alt="Doctor Image" style = "max-height: 450px;">
+  <div class="card-body card-body-flex">
+    <h2>{{user.profession}}</h2>
+    <button routerLink="doctorSignIn"class="btn btn-primary">I am a {{user.profession}}</button>
+  </div>
+</div>

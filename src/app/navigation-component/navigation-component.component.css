@@ -1,0 +1,13 @@
+.nav-css{
+  background-color: rgba(202,220,236,255);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.nav-links{
+  display: flex;
+  gap: 0.5rem;
+}
+ul{
+  list-style-type: none;
+}

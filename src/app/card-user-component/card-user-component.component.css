@@ -1,0 +1,8 @@
+.card-body-flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card:hover{
+	transform: translateY(20px);
+}
