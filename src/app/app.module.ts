@@ -10,6 +10,7 @@ import { CardListComponentComponent } from './card-list-component/card-list-comp
 import { SignInComponentComponent } from './sign-in-component/sign-in-component.component';
 import { HomeComponent } from './home/home.component';
 import { FormsModule } from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http'
 const appRoutes: Routes = [
   { path: 'doctorSignIn', component: SignInComponentComponent },
   { path: 'secretaireSignIn', component: SignInComponentComponent },
@@ -29,7 +30,8 @@ const appRoutes: Routes = [
     AppRoutingModule,
     NgbModule,
     FormsModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    HttpClientModule
   ],
   exports: [RouterModule],
   providers: [],
